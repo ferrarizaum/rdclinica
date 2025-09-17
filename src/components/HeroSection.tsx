@@ -22,7 +22,7 @@ export function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
             <div className="space-y-4">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight" style={{fontFamily: 'Lora, serif'}}>
                 Odontologia e <span className="text-primary">Harmonização Orofacial</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">

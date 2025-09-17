@@ -53,7 +53,7 @@ export function ServicesSection() {
     <section id="services" className="py-16 sm:py-20 bg-secondary/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4" style={{fontFamily: 'Lora, serif'}}>
             Nossos Serviços
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -65,7 +65,7 @@ export function ServicesSection() {
         <div className="mb-12 sm:mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-8 sm:mb-12">
             <div>
-              <h3 className="text-xl sm:text-2xl text-foreground mb-4 sm:mb-6 text-center lg:text-left">Odontologia</h3>
+              <h3 className="text-xl sm:text-2xl text-foreground mb-4 sm:mb-6 text-center lg:text-left" style={{fontFamily: 'Lora, serif'}}>Odontologia</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 {dentalServices.map((service, index) => (
                   <Card key={index} className="border border-border shadow-sm hover:shadow-md transition-shadow bg-card">
@@ -99,7 +99,7 @@ export function ServicesSection() {
         <div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="lg:order-2">
-              <h3 className="text-xl sm:text-2xl text-foreground mb-4 sm:mb-6 text-center lg:text-left">Harmonização Orofacial</h3>
+              <h3 className="text-xl sm:text-2xl text-foreground mb-4 sm:mb-6 text-center lg:text-left" style={{fontFamily: 'Lora, serif'}}>Harmonização Orofacial</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 {aestheticServices.map((service, index) => (
                   <Card key={index} className="border border-border shadow-sm hover:shadow-md transition-shadow bg-card">

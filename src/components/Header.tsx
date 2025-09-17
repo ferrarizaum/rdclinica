@@ -41,7 +41,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <h1 className="text-xl sm:text-2xl text-primary cursor-pointer" onClick={() => scrollToSection('home')}>
+            <h1 className="text-xl sm:text-2xl text-primary cursor-pointer font-serif" style={{fontFamily: 'Lora, serif'}} onClick={() => scrollToSection('home')}>
               RD ODONTOLOGIA
             </h1>
           </div>

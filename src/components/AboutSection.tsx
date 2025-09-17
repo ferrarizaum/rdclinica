@@ -8,7 +8,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 lg:space-y-8">
             <div className="space-y-4 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl text-foreground">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl text-foreground" style={{fontFamily: 'Lora, serif'}}>
                 Sobre a RD Odontologia
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500;600&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -24,6 +26,12 @@
   --switch-background: #e8d5b7;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
   --ring: #d4af37;
   --chart-1: #d4af37;
   --chart-2: #b8860b;
@@ -126,6 +134,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -135,48 +144,56 @@
 @layer base {
   :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
     h1 {
+      font-family: 'Lora', serif;
       font-size: var(--text-2xl);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     h2 {
+      font-family: 'Lora', serif;
       font-size: var(--text-xl);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     h3 {
+      font-family: 'Lora', serif;
       font-size: var(--text-lg);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     h4 {
+      font-family: 'Lora', serif;
       font-size: var(--text-base);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     p {
+      font-family: 'Inter', sans-serif;
       font-size: var(--text-base);
       font-weight: var(--font-weight-normal);
       line-height: 1.5;
     }
 
     label {
+      font-family: 'Inter', sans-serif;
       font-size: var(--text-base);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     button {
+      font-family: 'Inter', sans-serif;
       font-size: var(--text-base);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
     }
 
     input {
+      font-family: 'Inter', sans-serif;
       font-size: var(--text-base);
       font-weight: var(--font-weight-normal);
       line-height: 1.5;

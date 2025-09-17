@@ -9,7 +9,7 @@ export function AboutSection() {
           <div className="space-y-6 lg:space-y-8">
             <div className="space-y-4 text-center lg:text-left">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl text-foreground" style={{fontFamily: 'Lora, serif'}}>
-                Sobre a RD Odontologia
+                Sobre a RD Clinica
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 Há mais de 15 anos, a RD Odontologia e Harmonização Orofacial tem sido referência em odontologia e estética facial em São Paulo. Nossa missão é proporcionar tratamentos de excelência com foco no bem-estar e satisfação dos nossos pacientes.

@@ -1,7 +1,4 @@
 
-  # Website for Dental Clinic
-
-  This is a code bundle for Website for Dental Clinic. The original project is available at https://www.figma.com/design/TmPMw88GE5xlFckcmnkJJV/Website-for-Dental-Clinic.
 
   ## Running the code
 

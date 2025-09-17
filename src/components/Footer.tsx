@@ -114,7 +114,7 @@ export function Footer() {
       </div>
 
       {/* Informações importantes */}
-      <div className="bg-background py-4 border-t border-border">
+      {/* <div className="bg-background py-4 border-t border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-xs text-muted-foreground">
             <p>
@@ -122,7 +122,7 @@ export function Footer() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }

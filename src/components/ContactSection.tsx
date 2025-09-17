@@ -110,7 +110,7 @@ export function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="border border-primary/30 hover:border-primary/50 transition-colors cursor-pointer bg-card shadow-sm">
+              {/* <Card className="border border-primary/30 hover:border-primary/50 transition-colors cursor-pointer bg-card shadow-sm">
                 <CardHeader className="pb-3 p-4">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-2">
                     <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
@@ -123,7 +123,7 @@ export function ContactSection() {
                     Agendar Consulta
                   </Button>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
 
@@ -172,7 +172,7 @@ export function ContactSection() {
 
                   <div className="space-y-2">
                     <label className="text-sm text-foreground">Serviço de interesse</label>
-                    <Select value={formData.service} onValueChange={(value) => handleInputChange('service', value)}>
+                    <Select value={formData.service} onValueChange={(value: string) => handleInputChange('service', value)}>
                       <SelectTrigger className="bg-input-background border-border">
                         <SelectValue placeholder="Selecione um serviço" />
                       </SelectTrigger>

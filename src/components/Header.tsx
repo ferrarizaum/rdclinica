@@ -16,7 +16,7 @@ export function Header() {
   return (
     <header className="bg-background shadow-lg fixed w-full top-0 z-50 border-b border-border">
       {/* Top bar with contact info - Hidden on mobile */}
-      <div className="border-b border-border/50 hidden sm:block">
+      {/* <div className="border-b border-border/50 hidden sm:block">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-2">
             <div className="flex items-center space-x-6">
@@ -35,7 +35,7 @@ export function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

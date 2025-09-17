@@ -17,20 +17,6 @@ export function TeamSection() {
       description: "Especialista em ortodontia convencional e alinhadores invisíveis.",
       image: "https://images.unsplash.com/photo-1565090567208-c8038cfcf6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MXx8fHwxNzU3OTczNDY4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
-    {
-      name: "Dra. Marina Costa",
-      specialty: "Estética Facial",
-      experience: "8 anos de experiência",
-      description: "Especialista em harmonização facial e procedimentos estéticos.",
-      image: "https://images.unsplash.com/photo-1565090567208-c8038cfcf6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MXx8fHwxNzU3OTczNDY4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-    },
-    {
-      name: "Dr. Roberto Lima",
-      specialty: "Periodontista",
-      experience: "10 anos de experiência",
-      description: "Especialista em tratamento de gengivas e cirurgias periodontais.",
-      image: "https://images.unsplash.com/photo-1565090567208-c8038cfcf6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MXx8fHwxNzU3OTczNDY4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-    }
   ];
 
   return (
@@ -45,7 +31,7 @@ export function TeamSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="border border-border shadow-sm hover:shadow-md transition-shadow group bg-card">
               <CardContent className="p-0">
@@ -77,7 +63,7 @@ export function TeamSection() {
           ))}
         </div>
 
-        <div className="mt-12 sm:mt-16 bg-accent/30 rounded-xl p-6 sm:p-8 md:p-12 border border-primary/20">
+        {/* <div className="mt-12 sm:mt-16 bg-accent/30 rounded-xl p-6 sm:p-8 md:p-12 border border-primary/20">
           <div className="text-center space-y-4 sm:space-y-6">
             <h3 className="text-xl sm:text-2xl text-foreground">
               Compromisso com a Excelência
@@ -101,7 +87,7 @@ export function TeamSection() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

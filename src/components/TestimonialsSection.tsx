@@ -9,7 +9,7 @@ export function TestimonialsSection() {
       age: "35 anos",
       treatment: "Implante Dentário",
       image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "Estava com medo de fazer implante, mas a equipe me tranquilizou em todos os momentos. O resultado ficou perfeito e agora posso sorrir com confiança novamente!",
+      testimonial: "A equipe me tranquilizou em todos os momentos. O resultado ficou perfeito e agora posso sorrir com confiança novamente!",
       rating: 5
     },
     {
@@ -17,7 +17,7 @@ export function TestimonialsSection() {
       age: "42 anos", 
       treatment: "Ortodontia Invisível",
       image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "O tratamento com alinhadores foi muito prático. Ninguém notava que eu estava usando e o resultado ficou excelente. Recomendo para todos os adultos!",
+      testimonial: "O tratamento com alinhadores foi muito prático. O resultado ficou excelente. Recomendo!",
       rating: 5
     },
     {
@@ -25,33 +25,9 @@ export function TestimonialsSection() {
       age: "28 anos",
       treatment: "Harmonização Facial",
       image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "A Dra. Marina é incrível! Ela entendeu exatamente o que eu queria e o resultado da harmonização ficou muito natural. Me sinto mais confiante agora.",
+      testimonial: "A Dra. Marina é incrível! O resultado da harmonização ficou muito natural. Me sinto mais confiante agora.",
       rating: 5
     },
-    {
-      name: "Carlos Oliveira",
-      age: "50 anos",
-      treatment: "Reabilitação Oral",
-      image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "Depois de anos com problemas nos dentes, finalmente encontrei uma clínica que resolveu tudo. O atendimento é excepcional e o resultado superou minhas expectativas.",
-      rating: 5
-    },
-    {
-      name: "Patricia Lima",
-      age: "39 anos",
-      treatment: "Clareamento Dental",
-      image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "O clareamento foi rápido e indolor. Meus dentes ficaram muito mais brancos do que eu esperava. Toda a equipe é muito atenciosa e profissional.",
-      rating: 5
-    },
-    {
-      name: "Roberto Mendes",
-      age: "45 anos",
-      treatment: "Tratamento Periodontal",
-      image: "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBzbWlsZXxlbnwxfHx8fDE3NTc5NzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      testimonial: "Estava com gengivite avançada e o Dr. Roberto salvou meus dentes. O tratamento foi eficaz e agora faço acompanhamento regular. Clinica nota 10!",
-      rating: 5
-    }
   ];
 
   return (
@@ -98,7 +74,7 @@ export function TestimonialsSection() {
           ))}
         </div>
 
-        <div className="mt-12 sm:mt-16 bg-card rounded-xl p-6 sm:p-8 md:p-12 shadow-sm border border-border">
+        {/* <div className="mt-12 sm:mt-16 bg-card rounded-xl p-6 sm:p-8 md:p-12 shadow-sm border border-border">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 text-center">
             <div className="space-y-2">
               <div className="text-2xl sm:text-3xl text-primary">98%</div>
@@ -117,7 +93,7 @@ export function TestimonialsSection() {
               <div className="text-muted-foreground text-xs sm:text-sm">Recomendariam</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
